@@ -9,6 +9,7 @@
     "jade": "1.x",
     "js-pipeline": "0.2.x",
     "marked": "0.3.x",
+    "roots": "^3.0.0",
     "roots-wordpress": "0.2.x",
     "rupture": "0.6.x",
     "stylus": "0.49.x"
