@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 Roots-Wordpress Integration
+  ul
+    for post in wordpress.post
+      li: a(href=post._url)= post.title
