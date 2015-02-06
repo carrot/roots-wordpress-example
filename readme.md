@@ -4,10 +4,10 @@ An example showing wordpress integration with roots through netlify.
 
 ### Wordpress Setup
 
-Ok so first you need a wordpress install to use as your CMS. The easiest way to get one quickly is to just boot one up on a [Digital Ocean](https://www.digitalocean.com/) VPS. Check out [this guide](https://www.digitalocean.com/community/tutorials/one-click-install-wordpress-on-ubuntu-14-04-with-digitalocean) to get you up and running. Alternately, if you want to avoid having to manage your own server you could spin up a new wordpress installation at [Wordpress.com](https://wordpress.com/) for free.
+Ok so first you need a wordpress install to use as your CMS. The easiest way to get one quickly is to just boot one up on a [Digital Ocean](https://www.digitalocean.com/) VPS. Check out [this guide](https://www.digitalocean.com/community/tutorials/one-click-install-wordpress-on-ubuntu-14-04-with-digitalocean) to get you up and running. 
 
 
-If you're using a [Wordpress.com](https://wordpress.com/) site then everything is pre-installed for you out of the box. Just verify that the site is public and you're ready to setup roots.
+> **Note:** Alternately, if you want to avoid having to manage your own server you could spin up a new wordpress installation at [Wordpress.com](https://wordpress.com/) for free. If you're using a [Wordpress.com](https://wordpress.com/) site then everything is pre-installed for you out of the box. Just verify that the site is public and you're ready to setup roots.
 
 Cool, so you have wordpress installed. Next, you will need to install in two plugins in order to get everything wired up. Head to your wordpress admin interface and install [Jetpack](https://wordpress.org/plugins/jetpack/) and [Hookpress](https://wordpress.org/plugins/hookpress/). Once you have these installed, head over to the plugin configuration section; to get jetpack installed, it will require you to link up your wordpress.com account. If you don't currently have a wordpress.com account, it will ask you to create one.  Once that linking is complete you'll have turned on the "**JSON API**" module of jetpack. This will expose your wordpress content as a consumable API.
 
